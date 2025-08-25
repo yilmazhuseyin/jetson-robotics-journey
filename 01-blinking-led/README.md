@@ -27,3 +27,29 @@ This seemingly simple project turned into a deep and valuable debugging exercise
 ### Final Working Code
 
 ```python
+import Jetson.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BOARD)
+
+# Set actual pin number like on the NVIDIA board
+LED_PIN = 38
+BLINK_TIME = 0.5
+GPIO.setup(LED_PIN, GPIO.OUT)
+
+print("Press Ctrl+C to stop")
+
+try:
+    while True:
+        GPIO.output(LED_PIN, GPIO.HIGH)
+        print("LED ON") 
+        time.sleep(BLINK_TIME)                   
+        GPIO.output(LED_PIN, GPIO.LOW)
+        print("LED OFF")  
+        time.sleep(BLINK_TIME)                  
+except KeyboardInterrupt:
+    print("Exiting program")
+
+finally:
+    GPIO.output(LED_PIN, GPIO.LOW) # led off on final
+    GPIO.cleanup()  # reset all GPIO pins
