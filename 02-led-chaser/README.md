@@ -44,7 +44,7 @@ GPIO.setmode(GPIO.BOARD)
 
 # Create a list of the physical pin numbers we are using for our LEDs
 LED_PINS = [12, 35, 32, 7, 13, 15]
-SCAN_DELAY = 2 # The delay between LED steps
+SCAN_DELAY = 0.5 # The delay between LED steps
 
 # Set up all the pins in our list as outputs
 for pin in LED_PINS:
