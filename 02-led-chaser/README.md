@@ -14,7 +14,8 @@
 
 ![02-led-chaser-circuit-photo](https://github.com/user-attachments/assets/67f26e27-7be9-44c6-b7b1-094d76eb2047)
 
-https://github.com/user-attachments/assets/3256cc4d-a918-4141-9cac-d0c5b443c352
+#### Watch the video '02-led-chaser'
+[![Watch the video '02-led-chaser'](https://img.youtube.com/vi/-cEsfTWjCk4/maxresdefault.jpg)](https://youtube.com/shorts/-cEsfTWjCk4?si=KljS_NM2MhHTgXRf)
 
 The 6 LED circuits were connected to the Jetson pins as follows:
 
