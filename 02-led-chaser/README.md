@@ -36,3 +36,45 @@ Once this single ground wire was moved to the correct **Pin 6 (GND)**, the circu
 ### Final Working Code
 
 ```python
+import Jetson.GPIO as GPIO
+import time
+
+# Set the pin numbering mode to BOARD (physical pin numbers)
+GPIO.setmode(GPIO.BOARD)
+
+# Create a list of the physical pin numbers we are using for our LEDs
+LED_PINS = [12, 35, 32, 7, 13, 15]
+SCAN_DELAY = 2 # The delay between LED steps
+
+# Set up all the pins in our list as outputs
+for pin in LED_PINS:
+    GPIO.setup(pin, GPIO.OUT, initial=GPIO.LOW)
+
+print("Starting LED chaser. Press Ctrl+C to stop.")
+
+try:
+    while True:
+        # Loop forwards through the list of pins
+        for pin in LED_PINS:
+            GPIO.output(pin, GPIO.HIGH) # Turn current LED ON
+            time.sleep(SCAN_DELAY)
+            GPIO.output(pin, GPIO.LOW)  # Turn current LED OFF
+
+        # Loop backwards through the list of pins (from the second-to-last to the second)
+        # We use slicing [::-1] to reverse the list easily
+        for pin in LED_PINS[::-1]:
+            GPIO.output(pin, GPIO.HIGH)
+            time.sleep(SCAN_DELAY)
+            GPIO.output(pin, GPIO.LOW)
+            
+finally:
+    print("\nProgram stopped. Turning off all LEDs.")
+    # Ensure all LEDs are turned off
+    for pin in LED_PINS:
+        try:
+            GPIO.output(pin, GPIO.LOW)
+        except Exception as e:
+            print(f"Could not turn off pin {pin}: {e}")
+            
+    # Reset GPIO settings
+    GPIO.cleanup()
