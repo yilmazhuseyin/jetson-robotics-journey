@@ -18,12 +18,12 @@ The 6 LED circuits were connected to the Jetson pins as follows:
 
 | LED | Physical Pin |
 | :-- | :----------- |
-| 1   | Pin 12       |
-| 2   | Pin 33       |
-| 3   | Pin 29       |
-| 4   | Pin 31       |
+| 1   | Pin 7        |
+| 2   | Pin 12       |
+| 3   | Pin 13       |
+| 4   | Pin 15       |
 | 5   | Pin 32       |
-| 6   | Pin 36       |
+| 6   | Pin 35       |
 
 ### Challenges & Learnings
 
