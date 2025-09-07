@@ -15,6 +15,8 @@
 
 ### Watch the video '04-button-input'
 
+https://youtu.be/bdHVsnsglB8
+
 ### The Code
 This Python script uses the `Jetson.GPIO` library to read the button state and toggle the LED. It includes a custom function to "debounce" the mechanical switch, preventing multiple triggers from a single press.
 
