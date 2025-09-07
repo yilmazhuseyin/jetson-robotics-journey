@@ -19,8 +19,9 @@ This is a living project, tracking my progress, challenges, and key learnings al
 
 | #  | Project Name                                | Description                                                                 | Link                                                 |
 | :- | :------------------------------------------ | :-------------------------------------------------------------------------- | :--------------------------------------------------- |
-| 01 | The "Hello, World!" of Hardware             | Successfully blinking a single LED and debugging a complex series of issues. | [Link to Project](./01-blinking-led/)                |
+| 01 | The "Hello, World!" of Hardware             | Successfully blinking a single LED and debugging a complex series of issues. | [Link to Project](./01-blinking-led/)               |
 | 02 | The LED Chaser ("Knight Rider")             | Controlling a sequence of 6 LEDs to create a scanning light effect.         | [Link to Project](./02-led-chaser/)                  |
+| 03 | The Debounced Toggle Switch                 | Using a push button to control an LED, implementing software debouncing.         | [Link to Project](./03-button-input/)                |
 |    | *More to come...* |                                                                             |                                                      |
 
 
