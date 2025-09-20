@@ -1,6 +1,6 @@
 # Project 04: Multi-Servo Control & Hardware Debugging
 
-**Goal:** o control multiple servo motors in synchronized motion using a PCA9685 PWM driver. This project evolved into a deep dive into systematic hardware debugging, from verifying I2C communication to diagnosing and solving a critical power delivery failure.
+**Goal:** To control multiple servo motors in synchronized motion using a PCA9685 PWM driver. This project evolved into a deep dive into systematic hardware debugging, from verifying I2C communication to diagnosing and solving a critical power delivery failure.
 ### Hardware Used
 
 * NVIDIA Jetson Orin Nano
