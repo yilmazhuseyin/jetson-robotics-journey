@@ -21,7 +21,8 @@ This is a living project, tracking my progress, challenges, and key learnings al
 | :- | :------------------------------------------ | :-------------------------------------------------------------------------- | :--------------------------------------------------- |
 | 01 | The "Hello, World!" of Hardware             | Successfully blinking a single LED and debugging a complex series of issues. | [Link to Project](./01-blinking-led/)               |
 | 02 | The LED Chaser ("Knight Rider")             | Controlling a sequence of 6 LEDs to create a scanning light effect.         | [Link to Project](./02-led-chaser/)                  |
-| 03 | The Debounced Toggle Switch                 | Using a push button to control an LED, implementing software debouncing.         | [Link to Project](./03-button-input/)                |
+| 03 | The Debounced Toggle Switch                 | Using a push button to control an LED, implementing software debouncing.         | [Link to Project](./03-button-input/)           |
+| 04 | Multi-Servo Control                 | To control multiple servo motors in synchronized motion using a PCA9685 PWM driver.        | [Link to Project](./04-multi-servo-control/)           |
 |    | *More to come...* |                                                                             |                                                      |
 
 
@@ -32,8 +33,8 @@ This is a living project, tracking my progress, challenges, and key learnings al
 My eventual goal is to build fully autonomous robots. The skills I am focusing on developing through these projects include:
 
 * [x] Basic GPIO Control (Outputs)
-* [ ] GPIO Inputs (Buttons, Sensors)
-* [ ] PWM Control (Servos, Motor Speed)
+* [x] GPIO Inputs (Buttons, Sensors)
+* [x] PWM Control (Servos, Motor Speed)
 * [ ] Computer Vision with OpenCV
 * [ ] Applied AI/ML on the Edge (Object Detection)
 * [ ] Mobile Robotics (Chassis, Motors, Navigation)
