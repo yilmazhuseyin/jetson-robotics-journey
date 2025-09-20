@@ -40,7 +40,7 @@ This circuit involves two separate power systems: one for the Jetson and PCA9685
 
 ### Watch the video '04-multi-servo-control'
 
-https://youtu.be/bdHVsnsglB8
+[https://youtu.be/bdHVsnsglB8](https://youtube.com/shorts/GR7XyCGOzrY)
 
 ### The Code
 This Python script uses the adafruit_servokit library to control two servos simultaneously, sweeping them back and forth in sync. It explicitly defines the I2C bus to ensure compatibility with the Jetson platform.
