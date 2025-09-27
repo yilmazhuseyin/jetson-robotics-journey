@@ -17,13 +17,14 @@ This is a living project, tracking my progress, challenges, and key learnings al
 
 ## Projects Index
 
-| #  | Project Name                                | Description                                                                 | Link                                                 |
-| :- | :------------------------------------------ | :-------------------------------------------------------------------------- | :--------------------------------------------------- |
-| 01 | The "Hello, World!" of Hardware             | Successfully blinking a single LED and debugging a complex series of issues. | [Link to Project](./01-blinking-led/)               |
-| 02 | The LED Chaser ("Knight Rider")             | Controlling a sequence of 6 LEDs to create a scanning light effect.         | [Link to Project](./02-led-chaser/)                  |
-| 03 | The Debounced Toggle Switch                 | Using a push button to control an LED, implementing software debouncing.         | [Link to Project](./03-button-input/)           |
-| 04 | Multi-Servo Control                 | To control multiple servo motors in synchronized motion using a PCA9685 PWM driver.        | [Link to Project](./04-multi-servo-control/)           |
-|    | *More to come...* |                                                                             |                                                      |
+| #  | Project Name                                | Description                                                                                 | Link                                                 |
+| :- | :------------------------------------------ | :--------------------------------------------------------------------------                 | :--------------------------------------------------- |
+| 01 | The "Hello, World!" of Hardware             | Successfully blinking a single LED and debugging a complex series of issues.                | [Link to Project](./01-blinking-led/)                |
+| 02 | The LED Chaser ("Knight Rider")             | Controlling a sequence of 6 LEDs to create a scanning light effect.                         | [Link to Project](./02-led-chaser/)                  |
+| 03 | The Debounced Toggle Switch                 | Using a push button to control an LED, implementing software debouncing.                    | [Link to Project](./03-button-input/)                |
+| 04 | Multi-Servo Control                         | To control multiple servo motors in synchronized motion using a PCA9685 PWM driver.         | [Link to Project](./04-multi-servo-control/)         |
+| 05 | Interactive Servo Control                   | To build a complete interactive system by combining a physical input with a complex output. | [Link to Project](./05-interactive-servo-control/)   |
+|    | *More to come...*                           |                                                                                             |                                                      |
 
 
 ---
