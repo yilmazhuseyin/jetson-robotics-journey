@@ -24,6 +24,7 @@ This is a living project, tracking my progress, challenges, and key learnings al
 | 03 | The Debounced Toggle Switch                 | Using a push button to control an LED, implementing software debouncing.                    | [Link to Project](./03-button-input/)                |
 | 04 | Multi-Servo Control                         | To control multiple servo motors in synchronized motion using a PCA9685 PWM driver.         | [Link to Project](./04-multi-servo-control/)         |
 | 05 | Interactive Servo Control                   | To build a complete interactive system by combining a physical input with a complex output. | [Link to Project](./05-interactive-servo-control/)   |
+| 06 | Vision Gate Ocr-Servo                       | Smooth, butter-continuous 120 Hz motion robust OCR that reads small, skewed text.           | [Link to Project](./06-vision-gate-ocr-servo/)   |
 |    | *More to come...*                           |                                                                                             |                                                      |
 
 
@@ -36,7 +37,7 @@ My eventual goal is to build fully autonomous robots. The skills I am focusing o
 * [x] Basic GPIO Control (Outputs)
 * [x] GPIO Inputs (Buttons, Sensors)
 * [x] PWM Control (Servos, Motor Speed)
-* [ ] Computer Vision with OpenCV
+* [x] Computer Vision with OpenCV
 * [ ] Applied AI/ML on the Edge (Object Detection)
 * [ ] Mobile Robotics (Chassis, Motors, Navigation)
 * [ ] The Robot Operating System (ROS 2)
