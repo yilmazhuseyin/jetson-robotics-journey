@@ -3,8 +3,6 @@
 Smooth, **butter-continuous** 120 Hz motion + **robust OCR** that reads small, skewed text.  
 Built for Jetson/USB cams + PCA9685 servos.
 
-https://github.com/yilmazhuseyin/vision-gate-ocr-servo
-
 ## Demo
 https://youtube.com/shorts/KqwLz06xrPo
 
